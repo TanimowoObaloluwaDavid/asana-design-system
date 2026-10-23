@@ -1,0 +1,146 @@
+/* ==========================================================================
+   Asana Design System — CSS Theme Tokens
+   Generated from src/tokens.ts
+   ========================================================================== */
+
+:root {
+  /* ── Colors ────────────────────────────────────────────────────────────── */
+  --asana-color-primary: #646f79;
+  --asana-color-on-primary: #ffffff;
+  --asana-color-background: #ffffff;
+  --asana-color-surface: #0d0d0d;
+  --asana-color-border: #f3f3f3;
+  --asana-color-text: #ffffff;
+  --asana-color-text-muted: #0d0d0d;
+  --asana-color-accent: #0d0e10;
+
+  /* ── Typography ────────────────────────────────────────────────────────── */
+  --asana-font-family:
+    "TWK Lausanne", "Helvetica Neue", Helvetica, sans-serif;
+
+  --asana-font-display-size: 30px;
+  --asana-font-display-weight: 400;
+  --asana-font-display-line-height: 1.2;
+  --asana-font-display-letter-spacing: -1.08px;
+
+  --asana-font-heading-size: 24px;
+  --asana-font-heading-weight: 500;
+  --asana-font-heading-line-height: 1.2;
+
+  --asana-font-body-size: 16px;
+  --asana-font-body-weight: 400;
+  --asana-font-body-line-height: 1.5;
+
+  /* ── Spacing ───────────────────────────────────────────────────────────── */
+  --asana-spacing-base: 4px;
+  --asana-spacing-1: 4px;
+  --asana-spacing-2: 8px;
+  --asana-spacing-3: 12px;
+  --asana-spacing-4: 16px;
+  --asana-spacing-5: 20px;
+  --asana-spacing-6: 24px;
+  --asana-spacing-8: 32px;
+  --asana-spacing-12: 48px;
+  --asana-spacing-16: 64px;
+  --asana-spacing-28: 112px;
+
+  /* ── Radius ────────────────────────────────────────────────────────────── */
+  --asana-radius-sm: 4px;
+  --asana-radius-md: 8px;
+  --asana-radius-lg: 20px;
+  --asana-radius-xl: 64px;
+
+  /* ── Shadows ───────────────────────────────────────────────────────────── */
+  --asana-shadow-card: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  --asana-shadow-elevated: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+
+  /* ── Motion ────────────────────────────────────────────────────────────── */
+  --asana-motion-duration-fast: 100ms;
+  --asana-motion-duration-base: 200ms;
+  --asana-motion-duration-slow: 300ms;
+  --asana-motion-easing: ease-in-out;
+
+  /* ── Breakpoints ───────────────────────────────────────────────────────── */
+  --asana-bp-1px: 1px;
+  --asana-bp-200px: 200px;
+  --asana-bp-300px: 300px;
+  --asana-bp-350px: 350px;
+  --asana-bp-400px: 400px;
+  --asana-bp-414px: 414px;
+  --asana-bp-480px: 480px;
+  --asana-bp-500px: 500px;
+  --asana-bp-520px: 520px;
+  --asana-bp-550px: 550px;
+  --asana-bp-560px: 560px;
+  --asana-bp-600px: 600px;
+  --asana-bp-768px: 768px;
+  --asana-bp-769px: 769px;
+  --asana-bp-960px: 960px;
+  --asana-bp-961px: 961px;
+  --asana-bp-1024px: 1024px;
+  --asana-bp-1100px: 1100px;
+  --asana-bp-1120px: 1120px;
+  --asana-bp-1125px: 1125px;
+  --asana-bp-1200px: 1200px;
+  --asana-bp-1210px: 1210px;
+  --asana-bp-1280px: 1280px;
+  --asana-bp-1300px: 1300px;
+  --asana-bp-1360px: 1360px;
+  --asana-bp-1400px: 1400px;
+  --asana-bp-1440px: 1440px;
+  --asana-bp-1441px: 1441px;
+  --asana-bp-1500px: 1500px;
+  --asana-bp-1600px: 1600px;
+  --asana-bp-1680px: 1680px;
+  --asana-bp-1800px: 1800px;
+  --asana-bp-1880px: 1880px;
+  --asana-bp-2000px: 2000px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--asana-color-background);
+  color: var(--asana-color-text-muted);
+  font-family: var(--asana-font-family);
+  font-size: var(--asana-font-body-size);
+  font-weight: var(--asana-font-body-weight);
+  line-height: var(--asana-font-body-line-height);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--asana-color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   Typography utilities
+   ========================================================================== */
+.asana-display {
+  font-family: var(--asana-font-family);
+  font-size: var(--asana-font-display-size);
+  font-weight: var(--asana-font-display-weight);
+  line-height: var(--asana-font-display-line-height);
+  letter-spacing: var(--asana-font-display-letter-spacing);
+}
+
+.asana-heading {
+  font-family: var(--asana-font-family);
+  font-size: var(--asana-font-heading-size);
+  font-weight: var(--asana-font-heading-weight);
+  line-height: var(--asana-font-heading-line-height);
+}
+
+.asana-body {
+  font-family: var(--asana-font-family);
+  font-size: var(--asana-font-body-size);
+  font-weight: var(--asana-font-body-weight);
+  line-height: var(--asana-font-body-line-height);
+}
