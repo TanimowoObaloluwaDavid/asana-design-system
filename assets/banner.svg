@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" fill="none" role="img" aria-label="Asana Design System banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D0E10"/>
+      <stop offset="1" stop-color="#1C1F23"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 90) rotate(125) scale(460)">
+      <stop stop-color="#646F79" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#646F79" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <filter id="btnShadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+    <linearGradient id="hairline" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="400" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="400" rx="24" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1279" height="399" rx="23.5" stroke="#FFFFFF" stroke-opacity="0.08"/>
+
+  <!-- Asana-style three-dot mark -->
+  <g>
+    <circle cx="110" cy="84" r="14" fill="#FFFFFF"/>
+    <circle cx="96" cy="108" r="14" fill="#8A949D"/>
+    <circle cx="124" cy="108" r="14" fill="#646F79"/>
+  </g>
+
+  <!-- Title -->
+  <text x="110" y="190" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#FFFFFF" letter-spacing="-1.2">Asana<tspan font-weight="300" fill="#B8BEC5"> Design System</tspan></text>
+
+  <!-- Subtitle -->
+  <text x="112" y="226" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#8A949D" letter-spacing="0.1">Work management software for teams and AI agents.</text>
+
+  <!-- Tech pills -->
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#C9CED3">
+    <rect x="110" y="252" width="86" height="30" rx="15" stroke="#FFFFFF" stroke-opacity="0.16" fill="#FFFFFF" fill-opacity="0.04"/>
+    <text x="132" y="271">React 18</text>
+    <rect x="208" y="252" width="94" height="30" rx="15" stroke="#FFFFFF" stroke-opacity="0.16" fill="#FFFFFF" fill-opacity="0.04"/>
+    <text x="228" y="271">TypeScript</text>
+    <rect x="314" y="252" width="92" height="30" rx="15" stroke="#FFFFFF" stroke-opacity="0.16" fill="#FFFFFF" fill-opacity="0.04"/>
+    <text x="334" y="271">Tailwind</text>
+    <rect x="418" y="252" width="58" height="30" rx="15" stroke="#FFFFFF" stroke-opacity="0.16" fill="#FFFFFF" fill-opacity="0.04"/>
+    <text x="438" y="271">Vite</text>
+  </g>
+
+  <!-- Footer meta -->
+  <text x="112" y="348" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#646F79" letter-spacing="2.4">DESIGN TOKENS · COMPONENTS · ACCESSIBILITY · STORYBOOK</text>
+
+  <!-- Floating UI card -->
+  <g filter="url(#cardShadow)">
+    <rect x="900" y="90" width="300" height="220" rx="16" fill="#FFFFFF"/>
+  </g>
+  <text x="928" y="128" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#0D0D0D" letter-spacing="-0.3">Project kickoff</text>
+  <rect x="928" y="146" width="244" height="8" rx="4" fill="#F3F3F3"/>
+  <rect x="928" y="164" width="196" height="8" rx="4" fill="#F3F3F3"/>
+  <g filter="url(#btnShadow)">
+    <rect x="928" y="190" width="132" height="36" rx="18" fill="#646F79"/>
+  </g>
+  <text x="994" y="213" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#FFFFFF">View project</text>
+  <rect x="928" y="244" width="82" height="24" rx="12" fill="#F3F3F3"/>
+  <text x="969" y="260" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#0D0D0D">In progress</text>
+
+  <!-- Accent chips -->
+  <g>
+    <rect x="1030" y="244" width="22" height="22" rx="6" fill="#646F79"/>
+    <rect x="1058" y="244" width="22" height="22" rx="6" fill="#0D0E10"/>
+    <rect x="1086" y="244" width="22" height="22" rx="6" fill="#F3F3F3"/>
+    <rect x="1114" y="244" width="22" height="22" rx="6" fill="#FFFFFF" stroke="#E6E6E6"/>
+    <rect x="1142" y="244" width="22" height="22" rx="6" fill="#B8BEC5"/>
+  </g>
+
+  <rect x="0" y="399" width="1280" height="1" fill="url(#hairline)"/>
+</svg>

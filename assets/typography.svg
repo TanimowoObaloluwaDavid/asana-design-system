@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none" role="img" aria-label="Asana typography scale">
+  <rect width="1200" height="340" rx="20" fill="#FFFFFF" stroke="#F3F3F3"/>
+  <text x="60" y="52" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#0D0D0D" letter-spacing="-0.3">Typography</text>
+  <text x="60" y="76" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#8A949D">TWK Lausanne · scale and weight, not color or decoration.</text>
+
+  <text x="60" y="146" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="34" font-weight="400" fill="#0D0D0D" letter-spacing="-1.08">The OS for human-agent teams</text>
+  <text x="1010" y="146" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#646F79" letter-spacing="1.4">DISPLAY · 30 / 400</text>
+  <rect x="60" y="168" width="1080" height="1" fill="#F3F3F3"/>
+
+  <text x="60" y="222" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="24" font-weight="500" fill="#0D0D0D">Plan, automate, and execute critical workflows</text>
+  <text x="1010" y="222" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#646F79" letter-spacing="1.4">HEADING · 24 / 500</text>
+  <rect x="60" y="244" width="1080" height="1" fill="#F3F3F3"/>
+
+  <text x="60" y="292" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#5A6167">Body copy at 16px with 1.5 line-height supports sustained reading and reduces cognitive load.</text>
+  <text x="1010" y="292" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#646F79" letter-spacing="1.4">BODY · 16 / 400</text>
+  <text x="60" y="318" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#A9AFB5">Helvetica Neue, Helvetica, Arial, sans-serif fallback stack</text>
+</svg>

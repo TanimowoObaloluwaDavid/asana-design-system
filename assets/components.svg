@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" fill="none" role="img" aria-label="Asana component gallery">
+  <rect width="1200" height="580" rx="20" fill="#F7F7F8"/>
+  <text x="40" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#0D0D0D" letter-spacing="-0.3">Components</text>
+  <text x="40" y="70" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#8A949D">Typed React components built on the Asana tokens.</text>
+
+  <defs>
+    <filter id="s1" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Buttons tile -->
+  <rect x="40" y="94" width="550" height="190" rx="16" fill="#FFFFFF" stroke="#F3F3F3"/>
+  <text x="64" y="126" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0D0D0D">Buttons</text>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="500">
+    <rect x="64" y="148" width="126" height="44" rx="22" fill="#646F79"/>
+    <text x="127" y="175" text-anchor="middle" fill="#FFFFFF">Primary</text>
+    <text x="231" y="175" fill="#0D0D0D">Ghost</text>
+    <rect x="298" y="148" width="126" height="44" rx="22" fill="#FFFFFF" stroke="#E8E8E8"/>
+    <text x="361" y="175" text-anchor="middle" fill="#0D0D0D">Outline</text>
+    <rect x="440" y="148" width="126" height="44" rx="22" fill="#646F79" opacity="0.5"/>
+    <text x="503" y="175" text-anchor="middle" fill="#FFFFFF" opacity="0.9">Disabled</text>
+  </g>
+  <text x="64" y="232" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8A949D">Radius 20px · min-height 44px · 100–200ms transitions</text>
+  <g>
+    <rect x="64" y="248" width="86" height="26" rx="13" fill="#F3F3F3"/>
+    <text x="107" y="265" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#0D0D0D">sm · 36px</text>
+    <rect x="158" y="246" width="86" height="30" rx="15" fill="#F3F3F3"/>
+    <text x="201" y="265" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#0D0D0D">md · 44px</text>
+    <rect x="252" y="243" width="86" height="36" rx="18" fill="#F3F3F3"/>
+    <text x="295" y="265" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#0D0D0D">lg · 48px</text>
+  </g>
+
+  <!-- Input tile -->
+  <rect x="610" y="94" width="550" height="190" rx="16" fill="#FFFFFF" stroke="#F3F3F3"/>
+  <text x="634" y="126" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0D0D0D">Input</text>
+  <text x="634" y="152" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#0D0D0D">Task name</text>
+  <rect x="634" y="162" width="300" height="46" rx="8" fill="#FFFFFF" stroke="#E8E8E8"/>
+  <text x="650" y="190" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#A9AFB5">Enter task name</text>
+  <text x="634" y="228" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8A949D">Give your task a clear, descriptive name.</text>
+  <rect x="954" y="162" width="182" height="46" rx="8" fill="#FFFFFF" stroke="#646F79"/>
+  <text x="970" y="190" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#0D0D0D">Focused state</text>
+  <rect x="952" y="160" width="186" height="50" rx="10" fill="none" stroke="#646F79" stroke-opacity="0.18"/>
+  <text x="954" y="228" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8A949D">3px focus ring</text>
+
+  <!-- Card tile -->
+  <g filter="url(#s1)">
+    <rect x="40" y="306" width="550" height="234" rx="16" fill="#FFFFFF" stroke="#F3F3F3"/>
+  </g>
+  <text x="64" y="338" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0D0D0D">Card</text>
+  <text x="64" y="372" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#0D0D0D" letter-spacing="-0.4">Project kickoff</text>
+  <text x="64" y="398" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" fill="#5A6167">Align the team on goals, timeline, and owners</text>
+  <text x="64" y="418" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" fill="#5A6167">before work begins.</text>
+  <rect x="64" y="440" width="132" height="36" rx="18" fill="#646F79"/>
+  <text x="130" y="463" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#FFFFFF">View project</text>
+  <rect x="210" y="440" width="94" height="36" rx="18" fill="#F3F3F3"/>
+  <text x="257" y="463" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#0D0D0D">Open</text>
+  <text x="64" y="510" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8A949D">border #F3F3F3 · shadow 0 2px 8px rgba(0,0,0,.15) · radius 16px</text>
+
+  <!-- Badges tile -->
+  <rect x="610" y="306" width="550" height="234" rx="16" fill="#FFFFFF" stroke="#F3F3F3"/>
+  <text x="634" y="338" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0D0D0D">Badges &amp; status</text>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="500">
+    <rect x="634" y="354" width="64" height="26" rx="13" fill="#F3F3F3"/>
+    <text x="666" y="371" text-anchor="middle" fill="#0D0D0D">To do</text>
+    <rect x="710" y="354" width="92" height="26" rx="13" fill="#F3F3F3"/>
+    <text x="756" y="371" text-anchor="middle" fill="#0D0D0D">In progress</text>
+    <rect x="814" y="354" width="58" height="26" rx="13" fill="#F3F3F3"/>
+    <text x="843" y="371" text-anchor="middle" fill="#0D0D0D">Done</text>
+  </g>
+  <text x="634" y="408" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" font-weight="400" fill="#0D0D0D" letter-spacing="-1">Display 30px</text>
+  <text x="634" y="440" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#0D0D0D">Heading 24px</text>
+  <text x="634" y="468" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#5A6167">Body 16px — Swiss precision, muted tone.</text>
+  <text x="634" y="510" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8A949D">Status is conveyed by label and shape, not color alone.</text>
+</svg>

@@ -1,6 +1,22 @@
+<p align="center">
+  <img src="./assets/banner.svg" alt="Asana Design System — calm, muted, professional" width="100%" />
+</p>
+
 # @asana/design-system
 
 Production-ready React + TypeScript design system built on the [Asana design system](https://asana.com) tokens (version: alpha). Calm, muted, professional — designed for sustained, focused work.
+
+<p align="center">
+  <a href="https://github.com/TanimowoObaloluwaDavid/asana-design-system"><img alt="GitHub" src="https://img.shields.io/github/stars/TanimowoObaloluwaDavid/asana-design-system?style=flat-square&color=646f79" /></a>
+  <img alt="React 18" src="https://img.shields.io/badge/React-18-646f79?style=flat-square" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-strict-0d0d0d?style=flat-square" />
+  <img alt="Tailwind" src="https://img.shields.io/badge/Tailwind-v3-0d0e10?style=flat-square" />
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-646f79?style=flat-square" />
+</p>
+
+<p align="center">
+  <img src="./assets/components.svg" alt="Component gallery — buttons, inputs, cards, badges and type" width="100%" />
+</p>
 
 ## What's included
 
@@ -92,6 +108,10 @@ Then use utilities: `bg-primary text-text-muted shadow-card rounded-md duration-
 
 ### Colors
 
+<p align="center">
+  <img src="./assets/colors.svg" alt="Asana color palette — primary, on-primary, background, surface, border, text, text-muted, accent" width="100%" />
+</p>
+
 | Token | Value | Usage |
 |-------|-------|-------|
 | `primary` | `#646f79` | Interactive — buttons, links, active states |
@@ -104,6 +124,10 @@ Then use utilities: `bg-primary text-text-muted shadow-card rounded-md duration-
 | `accent` | `#0d0e10` | Secondary UI elements |
 
 ### Typography
+
+<p align="center">
+  <img src="./assets/typography.svg" alt="Asana type scale — display 30px, heading 24px, body 16px" width="100%" />
+</p>
 
 | Scale | Size | Weight | Line-height | Letter-spacing |
 |-------|------|--------|-------------|----------------|
@@ -150,7 +174,16 @@ asana-design-system/
 ├── postcss.config.js     # Tailwind + Autoprefixer
 ├── index.html            # Entry point
 ├── tokens.json           # Design tokens (JSON — Figma/dev handoff)
+├── LICENSE               # MIT
 ├── README.md             # This file
+├── assets/               # Banner, color, typography & component previews (SVG)
+│   ├── banner.svg
+│   ├── colors.svg
+│   ├── components.svg
+│   └── typography.svg
+├── css/                  # Standalone CSS distribution (no build required)
+│   ├── tokens.css
+│   └── components.css
 ├── src/
 │   ├── main.tsx          # React entry
 │   ├── App.tsx           # Live demo page
